@@ -4,14 +4,14 @@ public class Main {
 
         int primeCounter = 0;
 
-        for (int i = 10; i <= 50; i++) {
+        for (int i = 10; primeCounter < 3 && i <= 50; i++) {
             if (isPrime(i)) {
                 System.out.println(i);
                 primeCounter++;
-                if (primeCounter == 3) {
-                    System.out.println("Found 3 - Exiting th loop");
-                    break;
-                }
+//                if (primeCounter == 3) {
+//                    System.out.println("Found 3 - Exiting th loop");
+//                    break;
+//                }
             }
         }
     }
